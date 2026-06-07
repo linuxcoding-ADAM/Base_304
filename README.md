@@ -1,47 +1,233 @@
-## BASE_304 - The Ultimate Base Converter V 2.0.1
+<div align="center">
 
-A sleek, modern, and highly functional base converter built with pure Vanilla JavaScript, HTML, and CSS. This tool provides instant, accurate conversions between a variety of numerical bases and text, wrapped in a beautiful, responsive, and user-friendly interface.
+# 🚀 BASE_304 - The Ultimate Base Converter V 2.0.1
 
-### ➡️ Live Demo Link Here ⬅️ https://linuxcoding-adam.github.io/base-converter/
+A sleek, modern, and highly functional base converter built with pure Vanilla JavaScript, HTML, and CSS.
 
-About The Project
+This tool provides instant, accurate conversions between a variety of numerical bases and text, wrapped in a beautiful, responsive, and user-friendly interface.
 
-BASE_304 was created to be more than just a utility; it's a demonstration of how powerful modern front-end technologies can be without relying on heavy frameworks. It handles a wide range of number systems with precision and supports text-to-base conversions, making it a versatile tool for developers, students, and enthusiasts.
+### ➡️ Live Demo ⬅️
 
-The project's core goals were:
+https://linuxcoding-adam.github.io/base-converter/
 
-Accuracy: To handle arbitrarily large numbers without precision loss by using BigInt.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-2.0.1-blue?style=for-the-badge)
 
-User Experience: To provide a clean, intuitive, and responsive interface that works flawlessly on any device.
+</div>
 
-Modern Design: To feature a visually appealing design with smooth animations, a theme-switcher, and interactive elements.
+---
+
+## 📸 Screenshots
+
+### 🖥️ Desktop Version
+
+#### ☀️ Light Theme
+
+<img src="./screenshots/desktop-light.png" alt="Desktop Light Mode">
+
+#### 🌙 Dark Theme
+
+<img src="./screenshots/desktop-dark.png" alt="Desktop Dark Mode">
+
+---
+
+### 📱 Mobile Version
+
+<div align="center">
+
+<img src="./screenshots/mobile-light.png" width="280" alt="Mobile Light Theme">
+
+<img src="./screenshots/mobile-dark.png" width="280" alt="Mobile Dark Theme">
+
+</div>
+
+---
+
+## 📖 About The Project
+
+**BASE_304** was created to be more than just a utility; it's a demonstration of how powerful modern front-end technologies can be without relying on heavy frameworks.
+
+It handles a wide range of number systems with precision and supports text-to-base conversions, making it a versatile tool for developers, students, and enthusiasts.
+
+### 🎯 Core Goals
+
+#### Accuracy
+
+Handle arbitrarily large numbers without precision loss using JavaScript's powerful `BigInt`.
+
+#### User Experience
+
+Provide a clean, intuitive, and responsive interface that works flawlessly across all devices.
+
+#### Modern Design
+
+Deliver a visually appealing experience with smooth animations, theme switching, and interactive elements.
+
+---
 
 ## ✨ Key Features
 
-Multi-Base Conversion: Convert between Binary, Quaternary, Octal, Decimal, and Hexadecimal.
+### 🔢 Multi-Base Conversion
 
-Text (UTF-8) Support: Convert plain text into any numerical base and back, character by character.
+Convert between:
 
-Arbitrarily Large Numbers: Powered by JavaScript's BigInt for flawless accuracy with very large integers.
+- Binary (Base 2)
+- Quaternary (Base 4)
+- Octal (Base 8)
+- Decimal (Base 10)
+- Hexadecimal (Base 16)
 
-Instant Swapping: Swap the "From" and "To" fields with a single click.
+### 📝 UTF-8 Text Support
 
-Responsive Design: A fully mobile-first design that adapts perfectly to desktops, tablets, and phones.
+Convert plain text into numerical bases and back, character by character.
 
-Dual Themes: A beautiful light theme and a sleek dark theme, with the user's preference saved in localStorage.
+### ⚡ Arbitrarily Large Numbers
 
-Clipboard Integration: Easily copy results or paste input with convenient on-screen buttons.
+Powered by JavaScript's `BigInt` for flawless accuracy with very large integers.
 
-Interactive Footer: A fun, animated footer that reveals a "Made with ❤️ By M.A" message on hover or tap.
+### 🔄 Instant Swapping
 
-Zero Dependencies: Built with 100% Vanilla JavaScript, HTML5, and CSS3. No frameworks, no libraries.
+Swap the **From** and **To** fields instantly with a single click.
+
+### 📱 Responsive Design
+
+Mobile-first layout that adapts perfectly to:
+
+- Desktop
+- Tablet
+- Mobile
+
+### 🌗 Dual Themes
+
+Includes:
+
+- Elegant Light Mode
+- Sleek Dark Mode
+
+Theme preference is automatically saved using `localStorage`.
+
+### 📋 Clipboard Integration
+
+Quickly:
+
+- Copy converted results
+- Paste input values
+
+using built-in controls.
+
+### ❤️ Interactive Footer
+
+Animated footer interaction that reveals:
+
+> Made with ❤️ By M.A
+
+on hover or tap.
+
+### 📦 Zero Dependencies
+
+Built entirely with:
+
+- Vanilla JavaScript
+- HTML5
+- CSS3
+
+No frameworks. No libraries. No bloat.
+
+---
 
 ## 🛠️ Technologies Used
 
-HTML5: For the core structure and content.
+### HTML5
 
-CSS3: For all styling, including Flexbox, custom properties (variables), animations, and responsive design.
+Used for the application's structure and semantic content.
 
-Vanilla JavaScript (ES6+): For all logic, including the conversion engine, DOM manipulation, and event handling.
+### CSS3
 
-Project Link: https://github.com/linuxcoding-ADAM/base-converter/
+Responsible for:
+
+- Layout
+- Animations
+- Responsive Design
+- Custom Properties (CSS Variables)
+- Theme Management
+
+### Vanilla JavaScript (ES6+)
+
+Handles:
+
+- Conversion Engine
+- DOM Manipulation
+- Event Handling
+- Theme Persistence
+- Clipboard Features
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/linuxcoding-ADAM/base-converter.git
+cd base-converter
+```
+
+### Run Locally
+
+Simply open:
+
+```bash
+index.html
+```
+
+or use:
+
+```bash
+python -m http.server
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+base-converter/
+│
+├── index.html
+├── style.css
+├── script.js
+├── screenshots/
+│   ├── desktop-light.png
+│   ├── desktop-dark.png
+│   ├── mobile-light.png
+│   └── mobile-dark.png
+│
+└── README.md
+```
+
+---
+
+## 🌐 Live Demo
+
+https://linuxcoding-adam.github.io/base-converter/
+
+---
+
+## 🔗 Project Link
+
+https://github.com/linuxcoding-ADAM/base-converter
+
+---
+
+<div align="center">
+
+### Developed by M.A
+
+University of Bejaia
+
+⭐ If you found this project useful, consider giving it a star.
+
+</div>
