@@ -8,7 +8,7 @@ This tool provides instant, accurate conversions between a variety of numerical 
 
 ### ➡️ Live Demo ⬅️
 
-https://linuxcoding-adam.github.io/base-converter/
+https://base-304.vercel.app/
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -171,8 +171,8 @@ Handles:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/linuxcoding-ADAM/base-converter.git
-cd base-converter
+git clone https://github.com/linuxcoding-ADAM/Base_304.git
+cd Base_304
 ```
 
 ### Run Locally
@@ -194,11 +194,15 @@ python -m http.server
 ## 📂 Project Structure
 
 ```text
-base-converter/
+Base_304/
 │
 ├── index.html
-├── style.css
-├── script.js
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── core.js
+│   └── favicon icons
 ├── screenshots/
 │   ├── desktop-light.png
 │   ├── desktop-dark.png
@@ -212,13 +216,13 @@ base-converter/
 
 ## 🌐 Live Demo
 
-https://linuxcoding-adam.github.io/base-converter/
+https://base-304.vercel.app/
 
 ---
 
 ## 🔗 Project Link
 
-https://github.com/linuxcoding-ADAM/base-converter
+https://github.com/linuxcoding-ADAM/Base_304
 
 ---
 
